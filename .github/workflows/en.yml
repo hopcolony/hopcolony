@@ -23,6 +23,6 @@ jobs:
       with:
         push: true
         context: docs
-        file: Dockerfile
+        file: docs/Dockerfile
         tags: hopcolony/docs:en
         build-args: lang=en
