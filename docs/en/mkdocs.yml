@@ -1,6 +1,6 @@
 site_name: Hopcolony
 site_description: Focus on you app. Let us manage your backend.
-site_url: https://hopcolony.io
+site_url: https://www.hopcolony.io/latest/docs/
 theme:
   name: material
   custom_dir: overrides
@@ -30,8 +30,8 @@ plugins:
 nav:
 # - Introduction: index.md
 - index.md
-- init.md
-- docs.md
+- initialize.md
+- documents.md
 - cli.md
 markdown_extensions:
 - toc:
@@ -49,7 +49,7 @@ markdown_extensions:
 - pymdownx.tabbed
 extra:
   alternate:
-  - link: /
+  - link: /latest/docs/
     name: en - English
 extra_css:
 - css/termynal.css

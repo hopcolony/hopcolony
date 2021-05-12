@@ -444,7 +444,7 @@ Hopcolony Documents is a NoSQL database where you can store JSON-like documents 
     });
     ```
 
-!!! Tip
+!!! note
     Difference between setData and update:
 
     - setData will create the document if it does not exist. If it exists, it will overwite all the data. This means that all the other fields will be lost.
