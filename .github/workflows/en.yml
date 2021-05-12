@@ -2,7 +2,7 @@ name: Build English Version
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   setup-build-push:
