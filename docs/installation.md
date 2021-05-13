@@ -1,8 +1,4 @@
-# Getting started
-
-First of all, you need to create a new project at the [console](https://console.hopcolony.io). You can use a new hopcolony account or you can sign in with Google.
-
-# How to use the backend
+# Installation
 
 === "Python"
 

@@ -22,7 +22,6 @@ jobs:
     - uses: docker/build-push-action@v2
       with:
         push: true
-        context: docs
-        file: docs/Dockerfile
+        context: .
+        file: Dockerfile
         tags: hopcolony/docs:en
-        build-args: lang=en

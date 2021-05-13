@@ -1,0 +1,11 @@
+[data-md-color-scheme="hopcolony"] {
+    --md-primary-fg-color: #385723;
+    --md-primary-fg-color--light: #548036;
+    --md-primary-fg-color--dark: #385723;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 210;
+    /* [0, 360] */
+    --md-primary-fg-color: #385723;
+}

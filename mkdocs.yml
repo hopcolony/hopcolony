@@ -1,0 +1,81 @@
+site_name: Hopcolony
+site_url: https://www.hopcolony.io/latest/docs/
+site_author: Luis Paarup
+site_description: Focus on you app. Let us manage your backend.
+
+repo_name: hopcolony/hopcolony
+repo_url: https://github.com/hopcolony/hopcolony
+edit_uri: ""
+
+copyright: Copyright &copy; 2021 Hopcolony
+
+theme:
+  name: material
+  custom_dir: overrides
+
+  language: en
+
+  features:
+  - navigation.tabs
+
+  palette:
+  - scheme: hopcolony
+    accent: amber
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/thumb.png
+  logo: assets/images/thumb-white.png
+  icon:
+    repo: logo
+
+plugins:
+- search
+extra:
+  alternate:
+  - link: /latest/docs/
+    name: en - English
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_div_format ''
+- pymdownx.tabbed
+
+
+extra_css:
+- assets/stylesheets/termynal.css
+- assets/stylesheets/custom.css
+extra_javascript:
+- assets/javascripts/termynal.js
+- assets/javascripts/custom.js
+
+nav:
+- Home: index.md
+- Getting started:
+  - Introduction: introduction.md
+  - installation.md
+  - initialize.md
+- Authentication:
+  - Introduction: authentication/introduction.md
+  - authentication/username-password.md
+  - authentication/credential.md
+- Documents:
+  - Introduction: documents/introduction.md
+  - documents/getting-started.md
+- Drive:
+  - Introduction: drive/introduction.md
+  - drive/getting-started.md
+- Topics:
+  - Introduction: topics/introduction.md
+  - topics/getting-started.md
+- Command Line Interface: cli.md

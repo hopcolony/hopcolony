@@ -1,11 +1,6 @@
 # What is Hopcolony
 
+## Authentication
 ## Documents
-
 ## Drive
-
-## Auth
-
 ## Topics
-
-## Jobs

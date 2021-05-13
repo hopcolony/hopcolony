@@ -1,7 +1,6 @@
 from squidfunk/mkdocs-material AS build-env
 
-ARG lang
-COPY $lang /docs/
+COPY . /docs/
 
 WORKDIR /docs
 RUN mkdocs build
